@@ -1,23 +1,19 @@
-$(document).ready(function() {
+$(document).ready( function() {
+    $("#navbar").hide(); //hide your div initially
+    var topOfOthDiv = $("#product").offset().top;
+    $(window).scroll(function() {
+        if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
+            $("#navbar").show(200); //reached the desired point -- show div
+        }
+    });
 
-$('#popup1').mouseover(function() {
-	$('#colors').css('background-color', '#678286');
-})
-
-$('#popup2').mouseover(function() {
-	$('#colors').css('background-color', '#C1CEFF');
-})
-
-$('#name').mouseover(function() {
-	$('#colors').css('background-color', '#FFAA8B');
-})
-
-$('#popup3').mouseover(function() {
-	$('#colors').css('background-color', '#FFDA8A');
-})
-
-
+	$(".aboutintrofont").delay(300).animate({opacity: '1' }, 1200);
 
 
 
 });
+
+
+
+
+
