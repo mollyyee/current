@@ -1,18 +1,3 @@
-@font-face {
-    font-family: arialbold;
-    src: url(../fonts/ArialRoundedBold.ttf);
-}
-
-@font-face {
-	font-family: americantypewriter;
-	src: url(../fonts/AmericanTypewriter.ttc);
-}
-
-@font-face {
-	font-family: couriernew;
-	src: url(../fonts/cour.ttf);
-}
-
 
 body {
 	width: 100%;
