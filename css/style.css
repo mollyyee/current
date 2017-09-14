@@ -1,8 +1,14 @@
 
-body {
-	width: 100%;
-	margin: 0;
-}
+@media screen and (min-width: 1000px) {
+
+/*Fonts*//*Fonts*//*Fonts*//*Fonts*/
+/*Fonts*//*Fonts*//*Fonts*//*Fonts*/
+/*Fonts*//*Fonts*//*Fonts*//*Fonts*/
+/*Fonts*//*Fonts*//*Fonts*//*Fonts*/
+/*Fonts*//*Fonts*//*Fonts*//*Fonts*/
+/*Fonts*//*Fonts*//*Fonts*//*Fonts*/
+
+
 
 h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -35,6 +41,11 @@ h3 {
 	color: #252728;
 }
 
+h3:hover {
+	color: #9CBFD3;
+	transition: .1s;
+}
+
 h4 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
@@ -56,6 +67,20 @@ h5 {
 	line-height: 30px;
 	color: #839DA8;
 }
+
+
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: #475961;
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 28px;
+}
  
 .p {
 	font-family: 'Open Sans', sans-serif;
@@ -75,6 +100,12 @@ h5 {
 	margin: 0;
 	text-align: center;
 }
+
+.highlight {
+	margin: auto;
+	color: #9CBFD3;
+}
+
 
 #spacing {
 	padding-bottom: 20px;
@@ -113,6 +144,68 @@ h5 {
 	line-height: 16px;
 	 }
 
+/*Text Formatting*//*Text Formatting*//*Text Formatting*/
+/*Text Formatting*//*Text Formatting*//*Text Formatting*/
+/*Text Formatting*//*Text Formatting*//*Text Formatting*/
+/*Text Formatting*//*Text Formatting*//*Text Formatting*/
+/*Text Formatting*//*Text Formatting*//*Text Formatting*/
+/*Text Formatting*//*Text Formatting*//*Text Formatting*/
+
+
+
+#fulltext {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	color: #5E737F;
+}
+
+#introtext {
+	width: 50%;
+	padding-top: 10%;
+	margin: auto;
+	text-align: center;
+}
+
+
+#printztext {
+	top: 10%;
+	width: 70%;
+	margin-left: 25%;
+	position: absolute;
+	text-align: center;
+}
+
+#chimetext {
+	top: 30%;
+	width: 50%;
+	margin-left: 50%;
+	position: absolute;
+	text-align: center;
+}
+
+
+#snickertext {
+	top: 30%;
+	width: 50%;
+	margin-left: 25%;
+	position: absolute;
+	text-align: center;
+}
+
+
+/*Structure*/
+/*Structure*/
+/*Structure*/
+/*Structure*/
+/*Structure*/
+/*Structure*/
+
+
+body {
+	width: 100%;
+	margin: 0;
+}
 
 .introflex {
 	width: 100%;
@@ -129,12 +222,6 @@ h5 {
 	margin: auto;
 	z-index: -5;
 	position: fixed;
-}
-
-
-.whitebackground {
-	background-color: white;
-	z-index: 4;
 }
 
 #product {
@@ -191,21 +278,6 @@ h5 {
 	height: 20%;
 }
 
-
-#fulltext {
-	width: 100%;
-	text-align: center;
-	margin: auto;
-	color: #5E737F;
-}
-
-#introtext {
-	width: 50%;
-	padding-top: 10%;
-	margin: auto;
-	text-align: center;
-}
-
 #line {
 	border-left: #839DA8 solid;
 	border-width: .5px;
@@ -245,30 +317,15 @@ h5 {
 }
 
 
-#printztext {
-	top: 10%;
-	width: 70%;
-	margin-left: 25%;
-	position: absolute;
-	text-align: center;
-}
 
-#chimetext {
-	top: 35%;
-	width: 50%;
-	margin-left: 50%;
-	position: absolute;
-	text-align: center;
-}
+/*Elements & buttons*//*Elements & buttons*//*Elements & buttons*/
+/*Elements & buttons*//*Elements & buttons*//*Elements & buttons*/
+/*Elements & buttons*//*Elements & buttons*//*Elements & buttons*/
+/*Elements & buttons*//*Elements & buttons*//*Elements & buttons*/
+/*Elements & buttons*//*Elements & buttons*//*Elements & buttons*/
+/*Elements & buttons*//*Elements & buttons*//*Elements & buttons*/
 
 
-#snickertext {
-	top: 35%;
-	width: 50%;
-	margin-left: 25%;
-	position: absolute;
-	text-align: center;
-}
 
 #button {
 	background-color: #252728;
@@ -299,7 +356,6 @@ h5 {
 	font-weight: 400;
 }
 
-/*navbar*/
 
 #navbar {
 	padding: 0 25% 0 25%;
@@ -326,11 +382,7 @@ h5 {
 	position: fixed;
 }
 
-.highlight {
-	margin: auto;
-	color: #9CBFD3;
 
-}
 
 .navbutton {
 	margin: auto;
@@ -350,22 +402,6 @@ h5 {
 
 
 
-h3:hover {
-	color: #9CBFD3;
-	transition: .1s;
-}
-
-a {
-	text-decoration: none;
-}
-
-p {
-	font-family: 'Open Sans', sans-serif;
-	color: #475961;
-	font-size: 14px;
-	font-weight: 200;
-	line-height: 28px;
-}
  
 
 
@@ -468,7 +504,7 @@ p {
 }
 
 .boxtop {
-	padding: 10% 2% 2% 2%;
+	padding: 5% 2% 2% 2%;
 
 }
 
@@ -635,6 +671,716 @@ height: 15%;
 
 #abouthighlight:hover {
 	color: #839DA8;
+}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhon/*iPhone 6*/
+/*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhon/*iPhone 6*/
+/*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhon/*iPhone 6*/
+/*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhon/*iPhone 6*/
+/*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhon/*iPhone 6*/
+/*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhon/*iPhone 6*/
+/*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhon/*iPhone 6*/
+/*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhon/*iPhone 6*/
+/*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhon/*iPhone 6*/
+/*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhon/*iPhone 6*/
+/*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhon/*iPhone 6*/
+/*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhon/*iPhone 6*/
+/*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhon/*iPhone 6*/
+/*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhone 6*//*iPhon/*iPhone 6*/
+
+
+
+
+/*Fonts*//*Fonts*//*Fonts*//*Fonts*/
+/*Fonts*//*Fonts*//*Fonts*//*Fonts*/
+/*Fonts*//*Fonts*//*Fonts*//*Fonts*/
+/*Fonts*//*Fonts*//*Fonts*//*Fonts*/
+/*Fonts*//*Fonts*//*Fonts*//*Fonts*/
+/*Fonts*//*Fonts*//*Fonts*//*Fonts*/
+
+
+@media (max-width: 1000px) {
+
+h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 1.5em;
+	color: #252728;
+}
+
+h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 40px;
+}
+
+/*havbutton*/
+h3 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 30px;
+	padding-bottom: 15px;
+	color: #252728;
+}
+
+h3:hover {
+	color: #9CBFD3;
+	transition: .1s;
+}
+
+h4 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 30px;
+	padding-bottom: 15px;
+	color: #252728;
+}
+
+/*title*/
+h5 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 30px;
+	color: #839DA8;
+}
+
+
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: #475961;
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 28px;
+}
+ 
+.p {
+	font-family: 'Open Sans', sans-serif;
+	color: #475961;
+	font-size: 1em;
+	font-weight: 200;
+	line-height: 2em;
+}
+
+.accentfont {
+	font-family: 'Varela Round', sans-serif;
+	color: #9CBFD3;
+	font-size: 1em;
+	line-height: 2em;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.highlight {
+	margin: auto;
+	color: #9CBFD3;
+}
+
+
+#spacing {
+	padding-bottom: 20px;
+}
+
+#caption {
+	font-family: 'Varela Round', sans-serif;
+	color: #274B59;
+	font-size: 2em;
+	line-height: 40px;
+	font-weight: 400;
+	padding: 0;
+	z-index: 5;
+	text-align: center;
+}
+
+#title {
+	line-height: 26px;
+	margin: .7em;
+}
+
+#description {
+	line-height: 20px;
+	padding: 0;
+	margin: .25em;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+#highlight {
+	color: #9CBFD3;
+}
+
+#white { 
+	color: white;
+	font-size: 1.5em;
+	line-height: .3em;
+	 }
+
+/*Text Formatting*//*Text Formatting*//*Text Formatting*/
+/*Text Formatting*//*Text Formatting*//*Text Formatting*/
+/*Text Formatting*//*Text Formatting*//*Text Formatting*/
+/*Text Formatting*//*Text Formatting*//*Text Formatting*/
+/*Text Formatting*//*Text Formatting*//*Text Formatting*/
+/*Text Formatting*//*Text Formatting*//*Text Formatting*/
+
+
+
+#fulltext {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	color: #5E737F;
+}
+
+#introtext {
+	width: 60%;
+	padding-top: 10%;
+	margin: auto;
+	text-align: center;
+}
+
+
+#printztext {
+	top: 5%;
+	width: 65%;
+	margin-left: 30%;
+	position: absolute;
+	text-align: center;
+}
+
+#chimetext {
+	top: 20%;
+	width: 50%;
+	margin-left: 50%;
+	position: absolute;
+	text-align: center;
+}
+
+
+#snickertext {
+	top: 25%;
+	width: 50%;
+	margin-left: 25%;
+	position: absolute;
+	text-align: center;
+}
+
+
+/*Structure*/
+/*Structure*/
+/*Structure*/
+/*Structure*/
+/*Structure*/
+/*Structure*/
+
+
+body {
+	width: 100%;
+	margin: 0;
+}
+
+.introflex {
+	width: 100%;
+	display: flex;
+	height: 80%;
+	position: relative;
+}
+
+.photoflex {
+	padding: 3% 25% 0 25%;
+	width: 50%;
+	display: flex;
+	top: 3%;
+	margin: auto;
+	z-index: -5;
+	position: fixed;
+}
+
+#product {
+	width: 100%;
+}
+
+.full {
+	width: 100%;
+	padding: 2% 0 2% 0;
+	margin: 0;
+}
+
+.container {
+	width:100%;
+	position: relative;
+}
+
+.photocontainer {
+	margin: 20% 5% 5% 5%;
+	width: 100%;
+	flex-direction: column;
+	display: flex;
+}
+
+
+
+#photopadding {
+	padding: 2% 2% 2% 2%;
+	margin: auto;
+	height: 48%;
+	flex-direction: column;
+
+}
+
+.flex {
+	display: flex;
+	width: 100%;
+
+}
+
+.smallflex {
+	padding-top: 8%;
+	width: 50%;
+	display: flex;
+	height: 20%;
+	margin: auto;
+	flex-direction: column;
+	position: relative;
+}
+
+.midflex {
+	display: flex;
+	padding: 8% 0 8% 0;
+	height: 10%;
+}
+
+#line {
+	border-left: #839DA8 solid;
+	border-width: .5px;
+	height: 70%;
+	width: 2px;
+	margin: auto;
+}
+
+.end {
+	border-radius: 100px;
+	background-color: #839DA8;
+	width: 5px;
+	height: 5px;
+	margin: auto;
+	position: relative;
+}
+
+.endcontainer {
+	height: 10%;
+	display: flex;
+}
+
+.projectendcontainer {
+	height: 10%;
+	padding-top: 5%;
+	display: flex;
+}
+
+.projectendcontainer2 {
+	height: 3%;
+	display: flex;
+	padding-bottom: 1%;
+}
+
+#endphoto {
+	position: fixed;
+}
+
+
+
+/*Elements & buttons*//*Elements & buttons*//*Elements & buttons*/
+/*Elements & buttons*//*Elements & buttons*//*Elements & buttons*/
+/*Elements & buttons*//*Elements & buttons*//*Elements & buttons*/
+/*Elements & buttons*//*Elements & buttons*//*Elements & buttons*/
+/*Elements & buttons*//*Elements & buttons*//*Elements & buttons*/
+/*Elements & buttons*//*Elements & buttons*//*Elements & buttons*/
+
+
+
+#button {
+	background-color: #252728;
+	width: 200px;
+	height: 40px;
+	margin: auto;
+	border-radius: 25px;
+	border-style: solid;
+	border-width: 3px;
+	cursor: pointer;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+	text-align: center;
+}
+
+#button:hover {
+	background-color: white;
+	border-color: #464849;
+	border-width: 3px;
+	border-style: solid;
+}
+
+#button:hover #white {
+	color: #252728;
+	font-weight: 400;
+}
+
+
+#navbar {
+	padding: 0 25% 0 25%;
+	width: 50%;
+	display: flex;
+	top: 3%;
+	margin: auto;
+	z-index: 50;
+	position: fixed;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+#photonav {
+	padding: 0 25% 0 25%;
+	width: 50%;
+	display: flex;
+	top: 3%;
+	margin: auto;
+	z-index: 50;
+	position: fixed;
+}
+
+
+
+.navbutton {
+	margin: auto;
+}
+.navbutton:hover {
+	cursor: pointer;
+}
+
+#footbar {
+	width: 70%;
+	display: flex;
+	justify-content: center; 
+	top: 0;
+	margin: auto;
+	z-index: 50;
+}
+
+
+
+ 
+
+
+
+
+/*Project Structure*/
+
+#projectbody {
+	margin-right: 5%;
+	margin-left: 5%;
+	width: 90%;
+}
+
+
+.titlebox {
+	padding: 150px 2% 100px 2%;
+	display: flex;
+	height: 20%;
+	width: 100%;
+	flex-direction: column;
+}
+
+
+#intropadding{
+	flex-direction: column;
+	margin: auto;
+	display: flex;
+	text-align: center;
+}
+
+.vidbox {
+	height: 500px;
+	display: flex;
+}
+
+
+
+#video {
+	position: absolute;
+	width: 80%;
+	margin: auto;
+	z-index: -1;
+}
+
+#video2 {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	z-index: 0;
+}
+
+ .longblock {
+	width: 90%;
+	display: flex;
+	margin: auto;
+
+}
+
+.longblock2 {
+	width: 90%;
+	position: absolute;
+	margin: auto;
+
+}
+
+
+#halfcolumnsnopadding {
+	width: 60%;
+	top: 0;
+}
+
+.flexcontainertoppadding {
+	display: flex;
+	padding-top: 5%;
+}
+
+#halfcolumnsnopaddingcenter {
+	width: 50%;
+	top: 0;
+	margin: auto;
+	z-index: 5;
+}
+#halfcolumnsnopaddingcenter2 {
+	width: 28%;
+	top: 0;
+	margin: auto;
+	z-index: 5;
+	text-align: center;
+}
+
+.box {
+	padding: 2% 2% 2% 2%;
+}
+
+.boxwhy {
+	background-color: white;
+	padding: 0% 1% 0 1%;
+	display: flex;
+}
+
+.boxtop {
+	padding: 2% 2% 2% 2%;
+
+}
+
+.margin {
+	margin-right: 7%;
+	margin-left: 7%;
+	float: top;
+	position: relative;
+}
+
+
+.leastmargin {
+	padding: 10% 5% 10% 5%;
+	float: top;
+	position: relative;
+	overflow: auto;
+}
+
+.lessmargin {
+	padding: 2% 1% 2% 1%;
+	margin: auto;
+	float: top;
+}
+.flexcontainer {
+	display: flex;
+}
+
+#halfcolumns {
+	width:40%;
+	top: 0;
+	padding: 2%;
+	margin: auto;
+}
+
+#widerhalfcolumns {
+	width: 46%;
+	padding: 1%
+	;
+}
+
+#centered {
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+}
+.column34 {
+	width: 60%;
+}
+
+
+.column14 {
+	width: 35%;
+	padding-left: 5%;
+
+}
+
+.column80 {
+	width: 85%;
+}
+
+.column20 {
+	width: 15%;
+}
+
+.column3 {
+	width: 20%;
+}
+
+.column13{
+	width: 60%;
+}
+.fill {
+	width: 100%;
+}
+
+#bottomborder {
+padding-top: 5%;
+height: 15%;
+
+}
+
+#fixed {
+	margin: 0;
+	top: 50px;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
+.headpics {
+	height: 50px;
+	width: 50px;
+	padding: 10px 60px 10px 0px;
+}
+
+.flexcontainerfull {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+
+
+/*About me page*/
+
+
+.skillsquare { 
+    z-index: 1;
+    height: 25px;
+    width: 25px;
+    margin-right: 3em;
+ }
+
+ .skillsusedpage {
+    width: 50%;
+    display: flex;
+    padding: 2em 0 10% 0;
+}
+
+.aboutbox {
+	padding: 100px 5% 2% 5%;
+}
+
+.aboutmargin {
+	margin-top: 100px;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 3%;
+}
+
+
+.aboutintrofont {
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 1.8em;
+    letter-spacing: .06em;
+    line-height: 1.6em;
+    font-weight: 600;
+    color: #9CBFD3;
+    padding-bottom: 5%;
+/*    #e29589;
+*/}
+
+#aboutmespecialfont {
+    font-family: 'Mukta Vaani', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    letter-spacing: .05em;
+    line-height: 1.4em;
+    color: #9CBFD3;
+   -webkit-text-fill-color: white; 
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #9CBFD3;
+}
+
+
+.skillsquare:hover {
+	opacity: .2;
+}
+
+#abouthighlight {
+	color: #9CBFD3;
+}
+
+#abouthighlight:hover {
+	color: #839DA8;
+}
+
+
+
+
+
 
