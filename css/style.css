@@ -207,6 +207,9 @@ p {
 /*Structure*/
 /*Structure*/
 
+#mobile {
+	display: none;
+}
 
 body {
 	width: 100%;
@@ -654,10 +657,7 @@ height: 15%;
 }
 
 .aboutmargin {
-	margin-top: 100px;
-	margin-right: 20%;
-	margin-left: 20%;
-	margin-bottom: 3%;
+
 }
 
 
