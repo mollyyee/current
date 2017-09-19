@@ -239,6 +239,13 @@ body {
 	position: relative;
 }
 
+.flexcontainer {
+	width:100%;
+	position: relative;
+	flex-direction: row;
+}
+
+
 .photocontainer {
 	margin: 20% 5% 5% 5%;
 	width: 100%;
@@ -540,6 +547,13 @@ body {
 	margin: auto;
 }
 
+#halfcolumnstop {
+	width:40%;
+	padding: 5% 2% 2% 2%;
+	margin: auto;
+	height: 50%;
+}
+
 #widerhalfcolumns {
 	width: 46%;
 	padding: 1%
@@ -615,19 +629,19 @@ height: 15%;
 
 .skillsquare { 
     z-index: 1;
-    height: 25px;
-    width: 25px;
+    height: 18px;
+    width: 18px;
     margin-right: 3em;
  }
 
  .skillsusedpage {
     width: 50%;
     display: flex;
-    padding: 2em 0 2em 0;
-}
+    padding-top: 1em;
+} 
 
 .aboutbox {
-	padding: 100px 10% 2% 10%;
+	top: 0;
 }
 
 .aboutmargin {
@@ -640,10 +654,10 @@ height: 15%;
 
 .aboutintrofont {
     font-family: 'Mukta Vaani', sans-serif;
-    font-size: 1.8em;
+    font-size: 1.2em;
     letter-spacing: .06em;
     line-height: 1.6em;
-    font-weight: 600;
+    font-weight: 400;
     color: #9CBFD3;
 /*    #e29589;
 */}
@@ -651,7 +665,7 @@ height: 15%;
 #aboutmespecialfont {
     font-family: 'Mukta Vaani', sans-serif;
     font-weight: 300;
-    font-size: 1.1em;
+    font-size: 1em;
     letter-spacing: .05em;
     line-height: 1.4em;
     color: #9CBFD3;
