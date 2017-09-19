@@ -68,11 +68,17 @@ h5 {
 	color: #839DA8;
 }
 
-
-
 a {
 	text-decoration: none;
+	outline: none;
 }
+
+a:link {
+	outline: black;
+}
+
+a#button {outline : none;}
+
 
 p {
 	font-family: 'Open Sans', sans-serif;
@@ -641,7 +647,10 @@ height: 15%;
 } 
 
 .aboutbox {
-	top: 0;
+	display: flex;
+	text-align: center;
+	margin: auto;
+	width: 20%;
 }
 
 .aboutmargin {
@@ -1188,6 +1197,9 @@ body {
 
 }
 
+#halfcolumnstop {
+	padding: 1em;
+}
 
 #halfcolumnsnopadding {
 	width: 60%;
@@ -1331,26 +1343,31 @@ height: 15%;
 
 /*About me page*/
 
-
+#webpage {
+	display: none;
+}
 .skillsquare { 
     z-index: 1;
-    height: 25px;
-    width: 25px;
-    margin-right: 3em;
+    height: 30px;
+    width: 30px;
+    margin: auto;
  }
 
  .skillsusedpage {
-    width: 50%;
+    width: 30%;
     display: flex;
-    padding: 2em 0 10% 0;
+    margin: auto;
+    padding: 1.5em 0 2em 0 ;
+
 }
 
 .aboutbox {
-	padding: 100px 5% 2% 5%;
+	display: flex;
+	text-align: center;
+	margin: auto;
 }
 
 .aboutmargin {
-	margin-top: 100px;
 	margin-right: 10%;
 	margin-left: 10%;
 	margin-bottom: 3%;
@@ -1359,12 +1376,14 @@ height: 15%;
 
 .aboutintrofont {
     font-family: 'Mukta Vaani', sans-serif;
-    font-size: 1.8em;
+    font-size: 1.4em;
     letter-spacing: .06em;
     line-height: 1.6em;
     font-weight: 600;
     color: #9CBFD3;
-    padding-bottom: 5%;
+    padding: 5% 1em 5% 1em;
+    margin: auto;
+    text-align: center;
 /*    #e29589;
 */}
 
