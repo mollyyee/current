@@ -653,7 +653,7 @@ height: 15%;
 	display: flex;
 	text-align: center;
 	margin: auto;
-	width: 20%;
+	width: 40%;
 }
 
 .aboutmargin {
@@ -668,6 +668,8 @@ height: 15%;
     line-height: 1.6em;
     font-weight: 400;
     color: #9CBFD3;
+    text-align: center;
+    margin: auto;
 /*    #e29589;
 */}
 
@@ -945,13 +947,12 @@ body {
 }
 
 .photoflex {
-	padding: 3% 25% 0 25%;
-	width: 50%;
+	padding: 10% 10% 5% 10%;
+	width: 80%;
 	display: flex;
 	top: 3%;
 	margin: auto;
 	z-index: -5;
-	position: fixed;
 }
 
 #product {
